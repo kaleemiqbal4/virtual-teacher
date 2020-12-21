@@ -1,0 +1,28 @@
+#install restfulframework
+
+pip install djangorestframework
+
+#create Python Project
+
+django-admin startproject projectname
+
+#create new app
+
+python manage.py startapp tutorials
+
+#Technology
+
+Python 3.9.1
+Django 2.1.15
+Django Rest Framework 3.11.0
+djongo 1.3.1
+django-cors-headers 3.2.1
+MongoDB 3.4 or higher
+
+#Migration Rules
+python manage.py makemigrations tutorials // Where is "tutorials" app name
+
+python manage.py migrate tutorials // Where is "tutorials" app name
+
+# Run Python application
+python manage.py runserver 8080
